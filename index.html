@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>less theme for standard markdown</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/markdown.css">
+        <link rel="stylesheet" href="assets/clearness-dark.css">
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    </head>
+    <body>
+        <div id="content-main">
+            <div class="content-inner">
+                <div class="markdown clearness-dark">
+                    <h1>HTML that looks like markdown</h1>
+
+                    <p>When this section is styled by <code>markdown.css</code> it looks like plain-text, despite being HTML. Inspect it with firebug or click on &lt;HTML/&gt; to see the markup.</p>
+
+                    <p>A <strong>strong tag</strong> and an <em>em tag</em> get styled like so.</p>
+                    <p>How about a link to <a href="http://pad.haroopress.com">my site</a>?</p>
+
+                    <h2>H2 header</h2>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>name</th>
+                                <th>age</th>
+                                <th>gender</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>rhio</td>
+                                <td>33</td>
+                                <td>male</td>
+                            </tr>
+                            <tr>
+                                <td>edina</td>
+                                <td>28</td>
+                                <td>female</td>
+                            </tr>
+                            <tr>
+                                <td>jedi</td>
+                                <td>44</td>
+                                <td>robot</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h3>Lists</h3>
+                    <ul>
+                        <li>they look like this</li>
+                        <li>it’s how you’d format them in pure markdown, if you took the time to indent when it wrapped to a new line.</li>
+                    </ul>
+
+                    <h3>Ordered lists</h3>
+                    <ol>
+                        <li>here’s one line from a numbered list</li>
+                        <li>here’s another</li>
+                        <li>in markdown, the actual numbers don’t matter—you can toggle this with the class <code>markdown-ones</code></li>
+                    </ol>
+
+                    <h3>Block quotes</h3>
+                    <blockquote>
+                        This is a blockquote that extends<br>
+                        to multiple lines.<br><br>
+                        With repeating email-style angle brackets.
+                    </blockquote>
+
+                    <h3>Code blocks</h3>
+                    short <code>var foo = 1;</code> code
+                    <pre><code>(function() {
+    console.log('code blocks indent four spaces code blocks indent four spaces');
+})()</code></pre>
+
+                    <h3>Different headers</h3>
+
+                    <h4>h4 header</h4>
+                    <h5>h5 header</h5>
+                    <h6>h6 header</h6>
+
+                    <hr>
+
+                    <p>That’s an hr above. It just works!</p>
+
+                    <p>
+                        However, images will still look like images. Deal with it.
+                    </p>
+
+                    <p>
+                        <img alt="kitten" src="http://placekitten.com/g/160/180">
+                    </p>
+
+                    <p>
+                        Made by <a href="http://haroopress.com">Rhio Kim</a> /
+                        aka <a href="https://twitter.com/rhiokim">@rhiokim</a> /
+                        code on <a href="https://github.com/rhiokim/markdown-css">github</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
