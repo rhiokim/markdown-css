@@ -16,5 +16,10 @@ File build/solarized-dark.css created.
 File build/solarized-light.css created.
 ```
 
+# themes
+* Github
+* clearness Dark / Light
+* Solarized Dark / Light
+
 # license
 MIT
