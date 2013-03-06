@@ -1,0 +1,78 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+body {
+  color: #737373;
+  font-family: Sans-serif;
+  background: #ffffff;
+}
+.clearness {
+  -webkit-font-smoothing: antialiased;
+}
+.clearness a {
+  color: #1e6ea7;
+}
+.clearness a:hover {
+  color: #268bd2;
+}
+.clearness h1,
+.clearness h2,
+.clearness h3,
+.clearness h4,
+.clearness h5 {
+  color: #404040;
+}
+.clearness h2 {
+  border-bottom: 1px solid #cccccc;
+}
+.clearness h6 {
+  color: #666666;
+}
+.clearness hr {
+  border: 1px solid #e6e6e6;
+}
+.clearness blockquote {
+  padding: 0 15px;
+  font-style: italic;
+}
+.clearness blockquote:before {
+  content: "\201C";
+  font-size: 40px;
+  margin-left: -20px;
+  color: #aaa;
+}
+.clearness .block-word {
+  border: 1px solid #fdd39a;
+  background-color: #fee9cc;
+}
+.clearness pre {
+  border: 1px solid #fdd39a;
+  background-color: #fee9cc;
+}
+.clearness code {
+  border: 1px solid #fdd39a;
+  background-color: #fee9cc;
+  color: #737373;
+}
+.clearness table {
+  background-color: #ffffff;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+.clearness table tr th,
+.clearness table tr td {
+  border: 0px;
+  padding: .2em 1em;
+}
+.clearness table tr th {
+  border-bottom: 1px solid #bbb;
+}
+.clearness table tr td {
+  border-bottom: 1px solid #ddd;
+}
+.clearness table tr:nth-child(2n) {
+  background-color: #ffffff;
+}

@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib');
 
 	grunt.initConfig({
 		less: {
@@ -18,8 +19,16 @@ module.exports = function(grunt) {
 					"build/solarized-light.css": "themes/solarized-light.less"
 				}
 			}
+		},
+
+		copy: {
+			main: {
+				files: [
+					{ expand: true, cwd: 'build/', src: ['**'], dest: 'assets/css/' }
+				]
+			}
 		}
 	});
 
-	grunt.registerTask('default', [ 'less:development' ]);
+	grunt.registerTask('default', [ 'less:development', 'copy' ]);
 }
