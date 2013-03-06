@@ -1,0 +1,83 @@
+@import "../lib/elements.less";
+
+@bg-color: #fdf6e3;
+
+@base-color: #737373;
+@base-size: 1em;
+@base-link-color: darken(#268bd2, 10%);
+@base-family: Sans-serif;
+
+@line-height: 1.6;
+
+@base-margin: 0;
+@base-padding: 0;
+@border-color: darken(@bg-color, 10%);
+
+@bg-color-table: darken(@bg-color, 1%);
+
+body {
+  color: @base-color;
+  font-family: @base-family;
+  background: @bg-color;
+}
+
+.solarized-light {
+  -webkit-font-smoothing: antialiased;
+
+  a {
+    color: @base-link-color;
+
+    &:hover {
+      color: lighten(@base-link-color, 10%);
+    }
+  }
+
+  h1, h2, h3, h4, h5 {
+    color: #b58900;
+  }
+
+  h2 {
+    border-bottom: 1px solid darken(@bg-color, 20%);
+  }
+
+  h6 {
+    color: darken(#b58900, 5%);
+  }
+
+  hr {
+    border:1px solid darken(@bg-color, 10%);
+  }
+
+  blockquote {
+    border-left: 4px solid @border-color;
+    padding: 0 15px;
+    font-style: italic;
+  }
+
+  .block-word {
+    border: 1px solid darken(#eee8d5, 10%);
+    background-color: #eee8d5;
+  }
+
+  pre {
+    .block-word;
+  }
+
+  code {
+    .block-word;
+    color: lighten(@base-link-color, 20%);;
+  }
+
+  table {
+    background-color: overlay(@bg-color, #666);
+
+    tr {
+      th, td {
+        border: 1px solid darken(@bg-color, 10%);
+      }
+      &:nth-child(2n) {
+        background-color: overlay(@bg-color, #a0a0a0);
+      }
+    }
+  }
+}
