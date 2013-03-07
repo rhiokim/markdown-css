@@ -49,19 +49,6 @@
   margin-left: -20px;
   color: #aaa;
 }
-.clearness .block-word {
-  border: 1px solid #fdd39a;
-  background-color: #fee9cc;
-}
-.clearness pre {
-  border: 1px solid #fdd39a;
-  background-color: #fee9cc;
-}
-.clearness code {
-  border: 1px solid #fdd39a;
-  background-color: #fee9cc;
-  color: #737373;
-}
 .clearness table {
   background-color: #ffffff;
   border-collapse: separate;

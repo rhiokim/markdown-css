@@ -37,19 +37,6 @@
   padding: 0 15px;
   font-style: italic;
 }
-.clearness-dark .block-word {
-  border: 1px solid #45495e;
-  background-color: #20222b;
-}
-.clearness-dark pre {
-  border: 1px solid #45495e;
-  background-color: #20222b;
-}
-.clearness-dark code {
-  border: 1px solid #45495e;
-  background-color: #20222b;
-  color: #ff4a14;
-}
 .clearness-dark table {
   background-color: #303241;
 }

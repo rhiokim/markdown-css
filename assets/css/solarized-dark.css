@@ -44,19 +44,6 @@
   padding: 0 15px;
   font-style: italic;
 }
-.solarized-dark .block-word {
-  border: 1px solid #004b5e;
-  background-color: #00222b;
-}
-.solarized-dark pre {
-  border: 1px solid #004b5e;
-  background-color: #00222b;
-}
-.solarized-dark code {
-  border: 1px solid #004b5e;
-  background-color: #00222b;
-  color: #4ca2df;
-}
 .solarized-dark table {
   background-color: #003441;
 }

@@ -44,19 +44,6 @@
   padding: 0 15px;
   font-style: italic;
 }
-.solarized-light .block-word {
-  border: 1px solid #dfd4b1;
-  background-color: #eee8d5;
-}
-.solarized-light pre {
-  border: 1px solid #dfd4b1;
-  background-color: #eee8d5;
-}
-.solarized-light code {
-  border: 1px solid #dfd4b1;
-  background-color: #eee8d5;
-  color: #4ca2df;
-}
 .solarized-light table {
   background-color: #fdf4dd;
 }
