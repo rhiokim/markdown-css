@@ -33,6 +33,7 @@
   border: 1px solid #21232d;
 }
 .clearness-dark pre > code {
+  font-size: .9em;
   font-family: Consolas, Inconsolata, Courier, monospace;
 }
 .clearness-dark blockquote {
