@@ -32,6 +32,9 @@
 .clearness-dark hr {
   border: 1px solid #21232d;
 }
+.clearness-dark pre > code {
+  font-family: Consolas, Inconsolata, Courier, monospace;
+}
 .clearness-dark blockquote {
   border-left: 4px solid #121319;
   padding: 0 15px;

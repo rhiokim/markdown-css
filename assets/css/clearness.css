@@ -39,6 +39,9 @@
 .clearness hr {
   border: 1px solid #e6e6e6;
 }
+.clearness pre > code {
+  font-family: Consolas, Inconsolata, Courier, monospace;
+}
 .clearness blockquote {
   padding: 0 15px;
   font-style: italic;

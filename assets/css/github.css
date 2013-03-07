@@ -32,6 +32,9 @@
 .github hr {
   border: 1px solid #e6e6e6;
 }
+.github pre > code {
+  font-family: Consolas, Inconsolata, Courier, monospace;
+}
 .github blockquote {
   border-left: 4px solid #e6e6e6;
   padding: 0 15px;

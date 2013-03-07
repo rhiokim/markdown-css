@@ -7,6 +7,7 @@
 @base-size: 1em;
 @base-link-color: darken(#268bd2, 10%);
 @base-family: Sans-serif;
+@code-family: Consolas, Inconsolata, Courier, monospace;
 
 @line-height: 1.6;
 
@@ -45,6 +46,12 @@
 
   hr {
     border:1px solid darken(@bg-color, 3);
+  }
+
+  pre {
+    &>code {
+      font-family: @code-family;
+    }
   }
 
   blockquote {

@@ -39,6 +39,9 @@
 .solarized-dark hr {
   border: 1px solid #001f27;
 }
+.solarized-dark pre > code {
+  font-family: Consolas, Inconsolata, Courier, monospace;
+}
 .solarized-dark blockquote {
   border-left: 4px solid #000203;
   padding: 0 15px;
