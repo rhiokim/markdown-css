@@ -99,32 +99,36 @@
     }
   }
 
-  .codebase {
+  .code {
     border: 1px solid @border-color;
     border-radius: 3px;
-    background-color: #fff;
     word-break: break-all;
     word-wrap: break-word;
   }
 
   pre {
-    .codebase;
-    padding: 6px 10px;
+    .code;
+
+    overflow: auto;
+
+    code {
+      display: block;
+    }
+
+    &>code {
+      border: 0;
+      white-space: pre;
+      padding: .5em;
+      margin: 0;
+    }
   }
 
   code {
-    .codebase;
-
-    color: #d14;
+    .code;
+    
     white-space: nowrap;
     padding: 0 5px;
     margin: 0 2px;
-  }
-
-  pre>code {
-    white-space: pre;
-    padding: 0;
-    border: 0;
   }
 
   img {

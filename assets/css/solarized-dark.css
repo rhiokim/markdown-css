@@ -4,6 +4,12 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+/**
+ * https://github.com/rhiokim/markdown-css
+ * solarized-dark style
+ * made by rhio.kim
+ * powered by http://ethanschoonover.com/solarized
+ */
 .solarized-dark {
   padding: 20px;
   color: #839496;
@@ -33,23 +39,14 @@
 .solarized-dark hr {
   border: 1px solid #001f27;
 }
+.solarized-dark pre > code {
+  font-size: .9em;
+  font-family: Consolas, Inconsolata, Courier, monospace;
+}
 .solarized-dark blockquote {
   border-left: 4px solid #000203;
   padding: 0 15px;
   font-style: italic;
-}
-.solarized-dark .block-word {
-  border: 1px solid #004b5e;
-  background-color: #00222b;
-}
-.solarized-dark pre {
-  border: 1px solid #004b5e;
-  background-color: #00222b;
-}
-.solarized-dark code {
-  border: 1px solid #004b5e;
-  background-color: #00222b;
-  color: #4ca2df;
 }
 .solarized-dark table {
   background-color: #003441;
@@ -61,3 +58,6 @@
 .solarized-dark table tr:nth-child(2n) {
   background-color: #003b4b;
 }
+/**
+ * after less
+ */

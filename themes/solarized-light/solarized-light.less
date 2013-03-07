@@ -1,11 +1,13 @@
 @import "../lib/elements.less";
+@import "solarized-light/before";
 
-@bg-color: #fff;
+@bg-color: #fdf6e3;
 
-@base-color: #000;
+@base-color: #737373;
 @base-size: 1em;
-@base-link-color: darken(#4183C4, 10%);
+@base-link-color: darken(#268bd2, 10%);
 @base-family: Sans-serif;
+@code-family: Consolas, Inconsolata, Courier, monospace;
 
 @line-height: 1.6;
 
@@ -15,7 +17,7 @@
 
 @bg-color-table: darken(@bg-color, 1%);
 
-.github {
+.solarized-light {
   padding: 20px;
   color: @base-color;
   font-family: @base-family;
@@ -26,20 +28,31 @@
     color: @base-link-color;
 
     &:hover {
-      color: lighten(@base-link-color, 10);
+      color: lighten(@base-link-color, 10%);
     }
   }
 
+  h1, h2, h3, h4, h5 {
+    color: #b58900;
+  }
+
   h2 {
-    border-bottom: 1px solid darken(@bg-color, 10);
+    border-bottom: 1px solid darken(@bg-color, 20%);
   }
 
   h6 {
-    color: #777;
+    color: darken(#b58900, 5%);
   }
 
   hr {
-    border:1px solid darken(@bg-color, 10);
+    border:1px solid darken(@bg-color, 10%);
+  }
+
+  pre {
+    &>code {
+      font-size: .9em;
+      font-family: @code-family;
+    }
   }
 
   blockquote {
@@ -49,15 +62,17 @@
   }
 
   table {
-    background-color: darken(@bg-color, 2%);
+    background-color: overlay(@bg-color, #666);
 
     tr {
       th, td {
         border: 1px solid darken(@bg-color, 10%);
       }
       &:nth-child(2n) {
-        background-color: darken(@bg-color, 5%);
+        background-color: overlay(@bg-color, #a0a0a0);
       }
     }
   }
 }
+
+@import "solarized-light/after";

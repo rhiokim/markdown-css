@@ -1,11 +1,13 @@
 @import "../lib/elements.less";
+@import "clearness/before";
 
-@bg-color: #fdf6e3;
+@bg-color: #fff;
 
 @base-color: #737373;
 @base-size: 1em;
 @base-link-color: darken(#268bd2, 10%);
 @base-family: Sans-serif;
+@code-family: Consolas, Inconsolata, Courier, monospace;
 
 @line-height: 1.6;
 
@@ -15,7 +17,7 @@
 
 @bg-color-table: darken(@bg-color, 1%);
 
-.solarized-light {
+.clearness {
   padding: 20px;
   color: @base-color;
   font-family: @base-family;
@@ -31,7 +33,7 @@
   }
 
   h1, h2, h3, h4, h5 {
-    color: #b58900;
+    color: #404040;
   }
 
   h2 {
@@ -39,39 +41,47 @@
   }
 
   h6 {
-    color: darken(#b58900, 5%);
+    color: darken(#737373, 5%);
   }
 
   hr {
     border:1px solid darken(@bg-color, 10%);
   }
 
+  pre {
+    &>code {
+      font-size: .9em;
+      font-family: @code-family;
+    }
+  }
+
   blockquote {
-    border-left: 4px solid @border-color;
     padding: 0 15px;
     font-style: italic;
-  }
 
-  .block-word {
-    border: 1px solid darken(#eee8d5, 10%);
-    background-color: #eee8d5;
-  }
-
-  pre {
-    .block-word;
-  }
-
-  code {
-    .block-word;
-    color: lighten(@base-link-color, 20%);;
+    &:before {
+      content: "\201C";
+      font-size: 40px;
+      margin-left: -20px;
+      color: #aaa;
+    }
   }
 
   table {
     background-color: overlay(@bg-color, #666);
+    border-collapse: separate;
+    border-spacing: 2px;
 
     tr {
       th, td {
-        border: 1px solid darken(@bg-color, 10%);
+        border: 0px;
+        padding: .2em 1em;
+      }
+      th {
+        border-bottom:1px solid darken(@bg-color, 25%);
+      }
+      td {
+        border-bottom:1px solid darken(@bg-color, 15%);
       }
       &:nth-child(2n) {
         background-color: overlay(@bg-color, #a0a0a0);
@@ -79,3 +89,5 @@
     }
   }
 }
+
+@import "clearness/after";
