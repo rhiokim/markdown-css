@@ -76,36 +76,34 @@
 .markdown blockquote > :last-child {
   margin-bottom: 0;
 }
-.markdown .codebase {
-  border: 1px solid #cccccc;
-  border-radius: 3px;
-  background-color: #fff;
+.markdown .wordwrap {
   word-break: break-all;
   word-wrap: break-word;
 }
 .markdown pre {
-  border: 1px solid #cccccc;
-  border-radius: 3px;
-  background-color: #fff;
   word-break: break-all;
   word-wrap: break-word;
-  padding: 6px 10px;
+  overflow: auto;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+.markdown pre code {
+  display: block;
+}
+.markdown pre > code {
+  border: 0;
+  white-space: pre;
+  padding: .5em;
+  margin: 0;
 }
 .markdown code {
-  border: 1px solid #cccccc;
-  border-radius: 3px;
-  background-color: #fff;
   word-break: break-all;
   word-wrap: break-word;
-  color: #d14;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
   white-space: nowrap;
   padding: 0 5px;
   margin: 0 2px;
-}
-.markdown pre > code {
-  white-space: pre;
-  padding: 0;
-  border: 0;
 }
 .markdown img {
   max-width: 100%;

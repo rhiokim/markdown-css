@@ -99,32 +99,40 @@
     }
   }
 
-  .codebase {
-    border: 1px solid @border-color;
-    border-radius: 3px;
-    background-color: #fff;
+  .wordwrap {
     word-break: break-all;
     word-wrap: break-word;
+    //background-color: #fff;
   }
 
   pre {
-    .codebase;
-    padding: 6px 10px;
+    .wordwrap;
+    overflow: auto;
+    border: 1px solid @border-color;
+    border-radius: 3px;
+    //padding: 6px 10px;
+
+    code {
+      display: block;
+    }
+
+    &>code {
+      border: 0;
+      white-space: pre;
+      padding: .5em;
+      margin: 0;
+    }
   }
 
   code {
-    .codebase;
+    .wordwrap;
 
-    color: #d14;
+    //color: #d14;
+    border: 1px solid @border-color;
+    border-radius: 3px;
     white-space: nowrap;
     padding: 0 5px;
     margin: 0 2px;
-  }
-
-  pre>code {
-    white-space: pre;
-    padding: 0;
-    border: 0;
   }
 
   img {

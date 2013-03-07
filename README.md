@@ -46,8 +46,18 @@ File build/solarized-light.css created.
 
 #### structure less of theme
 
-* after.less
+* before.less
 * theme.less
+> ```css
+> @import "before";
+> 
+> .theme {
+> }
+>
+> @import "after";
+>```
+
+* after.less
 * plugins.less
 
 ## license
