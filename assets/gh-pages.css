@@ -34,3 +34,7 @@ ul.inner-menu li {
 	float: left !important;
 	cursor: pointer;
 }
+
+ul.inner-menu li.active {
+	color: #4183C4;
+}
