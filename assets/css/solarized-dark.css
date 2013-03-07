@@ -4,12 +4,11 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-body {
+.solarized-dark {
+  padding: 20px;
   color: #839496;
   font-family: Sans-serif;
   background: #002b36;
-}
-.solarized-dark {
   -webkit-font-smoothing: antialiased;
 }
 .solarized-dark a {

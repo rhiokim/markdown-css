@@ -15,13 +15,11 @@
 
 @bg-color-table: darken(@bg-color, 1%);
 
-body {
+.clearness {
+  padding: 20px;
   color: @base-color;
   font-family: @base-family;
   background: @bg-color;
-}
-
-.clearness {
   -webkit-font-smoothing: antialiased;
 
   a {
@@ -85,10 +83,10 @@ body {
         padding: .2em 1em;
       }
       th {
-        border-bottom:1px solid #bbb;
+        border-bottom:1px solid darken(@bg-color, 25%);
       }
       td {
-        border-bottom:1px solid #ddd;
+        border-bottom:1px solid darken(@bg-color, 15%);
       }
       &:nth-child(2n) {
         background-color: overlay(@bg-color, #a0a0a0);

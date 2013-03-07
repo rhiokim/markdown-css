@@ -1,6 +1,9 @@
 /**
  * standard markdown style
  */
+.markdown {
+  padding: 20px;
+}
 .markdown a {
   text-decoration: none;
 }

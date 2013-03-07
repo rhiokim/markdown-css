@@ -4,12 +4,11 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-body {
+.clearness-dark {
+  padding: 20px;
   color: #ffffff;
   font-family: Sans-serif;
   background: #282a36;
-}
-.clearness-dark {
   -webkit-font-smoothing: antialiased;
 }
 .clearness-dark a {

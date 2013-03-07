@@ -1,0 +1,36 @@
+body {
+	margin: 50px;
+	padding: 0;
+}
+
+#markdown {
+	margin-top: 70px;
+	border: 1px solid #ddd;
+}
+
+i.clear {
+	clear: both !important;
+}
+
+ul.inner-menu {
+	width: 100% !important;
+	background-color: #ddd;
+	position: fixed !important;
+	float: right !important;
+	display: block !important;
+	list-style: none !important;
+	top: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+ul.inner-menu li {
+	color: #000;
+	display: inline-block !important;
+	padding: 10px 10px !important;
+	float: left !important;
+	cursor: pointer;
+}

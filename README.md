@@ -18,7 +18,7 @@ File build/solarized-light.css created.
 
 # themes
 * Github
-* clearness Dark / Light
+* Clearness Dark / Light
 * Solarized Dark / Light
 
 # license

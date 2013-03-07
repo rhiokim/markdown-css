@@ -4,12 +4,11 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-body {
+.github {
+  padding: 20px;
   color: #000000;
   font-family: Sans-serif;
   background: #ffffff;
-}
-.github {
   -webkit-font-smoothing: antialiased;
 }
 .github a {
@@ -33,12 +32,12 @@ body {
   font-style: italic;
 }
 .github table {
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .github table tr th,
 .github table tr td {
-  border: 1px solid #ffffff;
+  border: 1px solid #e6e6e6;
 }
 .github table tr:nth-child(2n) {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
