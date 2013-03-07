@@ -1,7 +1,7 @@
-# introduce
+## introduce
 standard markdown style sheets & themes
 
-# install
+### how to install
 
 ```bash
 $ git clone https://github.com/rhiokim/markdown-css.git
@@ -16,10 +16,39 @@ File build/solarized-dark.css created.
 File build/solarized-light.css created.
 ```
 
-# themes
+### themes
+
 * Github
 * Clearness Dark / Light
 * Solarized Dark / Light
 
-# license
+### how to create your style
+
+#### light face theme
+#### dark face theme
+
+### how use
+
+```xml
+<link rel="stylesheet" href="assets/css/markdown.css">
+<link rel="stylesheet" href="assets/css/[your theme].css">
+
+<body>
+  <div class="markdown [your theme]">
+    converted html
+  </div>
+</body>
+```
+
+### advanced 
+
+#### import external libraries
+
+#### structure less of theme
+
+* after.less
+* theme.less
+* plugins.less
+
+## license
 MIT

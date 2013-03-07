@@ -12,11 +12,11 @@ module.exports = function(grunt) {
 
 				files: {
 					"build/markdown.css": "themes/markdown.less",
-					"build/clearness-dark.css": "themes/clearness-dark.less",
-					"build/clearness.css": "themes/clearness.less",
-					"build/github.css": "themes/github.less",
-					"build/solarized-dark.css": "themes/solarized-dark.less",
-					"build/solarized-light.css": "themes/solarized-light.less"
+					"build/clearness-dark.css": "themes/clearness-dark/clearness-dark.less",
+					"build/clearness.css": "themes/clearness/clearness.less",
+					"build/github.css": "themes/github/github.less",
+					"build/solarized-dark.css": "themes/solarized-dark/solarized-dark.less",
+					"build/solarized-light.css": "themes/solarized-light/solarized-light.less"
 				}
 			}
 		},

@@ -4,6 +4,12 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+/**
+ * https://github.com/rhiokim/markdown-css
+ * solarized-light style
+ * made by rhio.kim
+ * powered by http://ethanschoonover.com/solarized
+ */
 .clearness {
   padding: 20px;
   color: #737373;
@@ -75,3 +81,6 @@
 .clearness table tr:nth-child(2n) {
   background-color: #ffffff;
 }
+/**
+ * after less
+ */

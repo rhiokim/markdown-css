@@ -1,8 +1,9 @@
 @import "../lib/elements.less";
+@import "solarized-light/before";
 
-@bg-color: #002b36;
+@bg-color: #fdf6e3;
 
-@base-color: #839496;
+@base-color: #737373;
 @base-size: 1em;
 @base-link-color: darken(#268bd2, 10%);
 @base-family: Sans-serif;
@@ -15,7 +16,7 @@
 
 @bg-color-table: darken(@bg-color, 1%);
 
-.solarized-dark {
+.solarized-light {
   padding: 20px;
   color: @base-color;
   font-family: @base-family;
@@ -35,15 +36,15 @@
   }
 
   h2 {
-    border-bottom: 1px solid lighten(@bg-color, 10);
+    border-bottom: 1px solid darken(@bg-color, 20%);
   }
 
   h6 {
-    color: darken(#b58900, 15%);
+    color: darken(#b58900, 5%);
   }
 
   hr {
-    border:1px solid darken(@bg-color, 3);
+    border:1px solid darken(@bg-color, 10%);
   }
 
   blockquote {
@@ -53,8 +54,8 @@
   }
 
   .block-word {
-    border: 1px solid overlay(@bg-color, #ddd);
-    background-color: overlay(@bg-color, #666);
+    border: 1px solid darken(#eee8d5, 10%);
+    background-color: #eee8d5;
   }
 
   pre {
@@ -67,15 +68,17 @@
   }
 
   table {
-    background-color: overlay(@bg-color, #999);
+    background-color: overlay(@bg-color, #666);
 
     tr {
       th, td {
-        border: 1px solid overlay(@bg-color, #eee);
+        border: 1px solid darken(@bg-color, 10%);
       }
       &:nth-child(2n) {
-        background-color: overlay(@bg-color, #b0b0b0);
+        background-color: overlay(@bg-color, #a0a0a0);
       }
     }
   }
 }
+
+@import "solarized-light/after";
