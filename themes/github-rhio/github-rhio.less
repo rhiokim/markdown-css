@@ -1,12 +1,12 @@
 @import "../lib/elements.less";
-@import "solarized-light/before";
+@import "github-rhio/before";
 
-@bg-color: #fdf6e3;
+@bg-color: #fff;
 
-@base-color: #737373;
+@base-color: #222;
 @base-size: 1em;
-@base-link-color: darken(#268bd2, 10%);
-@base-family: "AppleSDGothicNeo-Medium", Sans-serif;
+@base-link-color: darken(#4183C4, 10%);
+@base-family: 'Roboto Condensed', 'Tauri', AppleSDGothicNeo-Medium, Sans-serif;
 @code-family: Consolas, Inconsolata, Courier, monospace;
 
 @line-height: 1.6;
@@ -17,7 +17,7 @@
 
 @bg-color-table: darken(@bg-color, 1%);
 
-.solarized-light {
+.github-rhio {
   padding: 20px;
   color: @base-color;
   font-family: @base-family;
@@ -28,24 +28,20 @@
     color: @base-link-color;
 
     &:hover {
-      color: lighten(@base-link-color, 10%);
+      color: lighten(@base-link-color, 10);
     }
   }
 
-  h1, h2, h3, h4, h5 {
-    color: #b58900;
-  }
-
   h2 {
-    border-bottom: 1px solid darken(@bg-color, 20%);
+    border-bottom: 1px solid darken(@bg-color, 10);
   }
 
   h6 {
-    color: darken(#b58900, 5%);
+    color: #777;
   }
 
   hr {
-    border:1px solid darken(@bg-color, 10%);
+    border:1px solid darken(@bg-color, 10);
   }
 
   pre {
@@ -62,17 +58,17 @@
   }
 
   table {
-    background-color: overlay(@bg-color, #666);
+    background-color: darken(@bg-color, 2%);
 
     tr {
       th, td {
         border: 1px solid darken(@bg-color, 10%);
       }
       &:nth-child(2n) {
-        background-color: overlay(@bg-color, #a0a0a0);
+        background-color: darken(@bg-color, 5%);
       }
     }
   }
 }
 
-@import "solarized-light/after";
+@import "github-rhio/after";

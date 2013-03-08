@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Tauri);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/**
+ * https://github.com/rhiokim/markdown-css
+ * solarized-light style
+ * made by rhio.kim
+ * powered by http://ethanschoonover.com/solarized
+ */
+.github-rhio {
+  padding: 20px;
+  color: #222222;
+  font-family: 'Roboto Condensed', 'Tauri', AppleSDGothicNeo-Medium, Sans-serif;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+.github-rhio a {
+  color: #3269a0;
+}
+.github-rhio a:hover {
+  color: #4183c4;
+}
+.github-rhio h2 {
+  border-bottom: 1px solid #e6e6e6;
+}
+.github-rhio h6 {
+  color: #777;
+}
+.github-rhio hr {
+  border: 1px solid #e6e6e6;
+}
+.github-rhio pre > code {
+  font-size: .9em;
+  font-family: Consolas, Inconsolata, Courier, monospace;
+}
+.github-rhio blockquote {
+  border-left: 4px solid #e6e6e6;
+  padding: 0 15px;
+  font-style: italic;
+}
+.github-rhio table {
+  background-color: #fafafa;
+}
+.github-rhio table tr th,
+.github-rhio table tr td {
+  border: 1px solid #e6e6e6;
+}
+.github-rhio table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+/**
+ * after less
+ */
