@@ -16,7 +16,6 @@
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
   background: #33342d;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke: .1px;
   font-size: 14px;
 }
 .node-dark a {
