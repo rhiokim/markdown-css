@@ -3486,39 +3486,34 @@ body {
 /**
  * after less
  */
-.haroopad img {
-  border-top: solid 1px #e6e6e6;
-  border-left: solid 1px #e6e6e6;
-  border-right: solid 1px #e6e6e6;
-  border-bottom: solid 1px #e6e6e6;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 0 7px #b8b8b8;
-  -moz-box-shadow: 0 0 7px #b8b8b8;
-  box-shadow: 0 0 7px #b8b8b8;
+/*
+.haroopad {
+	
+  img {
+    .bordered(@border-color, @border-color, @border-color, @border-color);
+    .rounded(3px);
+    .box-shadow(0 0 7px darken(@border-color, 18%));
+
+    &:hover {
+	    -webkit-animation-duration: 1s;
+	    -webkit-animation-delay: .2s;
+    	.pulse;
+    }
+  }
+
+  h1 {
+    -webkit-animation-duration: .5s;
+    -webkit-animation-delay: .2s;
+  	.tada;
+  }
+
+  &>ul {
+  	&>li {
+	    -webkit-animation-duration: .5s;
+	    -webkit-animation-delay: .2s;
+	  	.fadeInLeft;
+	  }
+  }
+
 }
-.haroopad img:hover {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: .2s;
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -o-animation-name: pulse;
-  animation-name: pulse;
-}
-.haroopad h1 {
-  -webkit-animation-duration: .5s;
-  -webkit-animation-delay: .2s;
-  -webkit-animation-name: tada;
-  -moz-animation-name: tada;
-  -o-animation-name: tada;
-  animation-name: tada;
-}
-.haroopad > ul > li {
-  -webkit-animation-duration: .5s;
-  -webkit-animation-delay: .2s;
-  -webkit-animation-name: fadeInLeft;
-  -moz-animation-name: fadeInLeft;
-  -o-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-}
+*/
