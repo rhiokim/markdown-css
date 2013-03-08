@@ -3441,7 +3441,7 @@ body {
  * made by rhio.kim
  * powered by http://ethanschoonover.com/solarized
  */
-.github-rhio {
+.haroopad {
   padding: 20px;
   color: #222222;
   font-size: 14px;
@@ -3449,44 +3449,44 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
-.github-rhio a {
+.haroopad a {
   color: #3269a0;
 }
-.github-rhio a:hover {
+.haroopad a:hover {
   color: #4183c4;
 }
-.github-rhio h2 {
+.haroopad h2 {
   border-bottom: 1px solid #e6e6e6;
 }
-.github-rhio h6 {
+.haroopad h6 {
   color: #777;
 }
-.github-rhio hr {
+.haroopad hr {
   border: 1px solid #e6e6e6;
 }
-.github-rhio pre > code {
+.haroopad pre > code {
   font-size: .9em;
   font-family: Consolas, Inconsolata, Courier, monospace;
 }
-.github-rhio blockquote {
+.haroopad blockquote {
   border-left: 4px solid #e6e6e6;
   padding: 0 15px;
   font-style: italic;
 }
-.github-rhio table {
+.haroopad table {
   background-color: #fafafa;
 }
-.github-rhio table tr th,
-.github-rhio table tr td {
+.haroopad table tr th,
+.haroopad table tr td {
   border: 1px solid #e6e6e6;
 }
-.github-rhio table tr:nth-child(2n) {
+.haroopad table tr:nth-child(2n) {
   background-color: #f2f2f2;
 }
 /**
  * after less
  */
-.github-rhio img {
+.haroopad img {
   border-top: solid 1px #e6e6e6;
   border-left: solid 1px #e6e6e6;
   border-right: solid 1px #e6e6e6;
@@ -3498,7 +3498,7 @@ body {
   -moz-box-shadow: 0 0 7px #b8b8b8;
   box-shadow: 0 0 7px #b8b8b8;
 }
-.github-rhio img:hover {
+.haroopad img:hover {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .2s;
   -webkit-animation-name: pulse;
@@ -3506,7 +3506,7 @@ body {
   -o-animation-name: pulse;
   animation-name: pulse;
 }
-.github-rhio h1 {
+.haroopad h1 {
   -webkit-animation-duration: .5s;
   -webkit-animation-delay: .2s;
   -webkit-animation-name: tada;
@@ -3514,7 +3514,7 @@ body {
   -o-animation-name: tada;
   animation-name: tada;
 }
-.github-rhio > ul > li {
+.haroopad > ul > li {
   -webkit-animation-duration: .5s;
   -webkit-animation-delay: .2s;
   -webkit-animation-name: fadeInLeft;
