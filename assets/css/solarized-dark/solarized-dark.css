@@ -9,10 +9,10 @@
  * solarized-dark style
  * made by rhio.kim
  * powered by http://ethanschoonover.com/solarized
- */
-.solarized-dark {
+ */.solarized-dark {
   padding: 20px;
   color: #839496;
+  font-size: 1em;
   font-family: Sans-serif;
   background: #002b36;
   -webkit-font-smoothing: antialiased;

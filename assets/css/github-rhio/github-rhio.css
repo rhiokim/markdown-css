@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Tauri);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
 /*---------------------------------------------------
     LESS Elements 0.9
   ---------------------------------------------------
@@ -10,46 +13,46 @@
  * made by rhio.kim
  * powered by http://ethanschoonover.com/solarized
  */
-.github {
+.github-rhio {
   padding: 20px;
-  color: #000000;
-  font-size: 1em;
-  font-family: Sans-serif;
+  color: #222222;
+  font-size: 14px;
+  font-family: 'Roboto Condensed', 'Tauri', AppleSDGothicNeo-Medium, Sans-serif;
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
-.github a {
+.github-rhio a {
   color: #3269a0;
 }
-.github a:hover {
+.github-rhio a:hover {
   color: #4183c4;
 }
-.github h2 {
+.github-rhio h2 {
   border-bottom: 1px solid #e6e6e6;
 }
-.github h6 {
+.github-rhio h6 {
   color: #777;
 }
-.github hr {
+.github-rhio hr {
   border: 1px solid #e6e6e6;
 }
-.github pre > code {
+.github-rhio pre > code {
   font-size: .9em;
   font-family: Consolas, Inconsolata, Courier, monospace;
 }
-.github blockquote {
+.github-rhio blockquote {
   border-left: 4px solid #e6e6e6;
   padding: 0 15px;
   font-style: italic;
 }
-.github table {
+.github-rhio table {
   background-color: #fafafa;
 }
-.github table tr th,
-.github table tr td {
+.github-rhio table tr th,
+.github-rhio table tr td {
   border: 1px solid #e6e6e6;
 }
-.github table tr:nth-child(2n) {
+.github-rhio table tr:nth-child(2n) {
   background-color: #f2f2f2;
 }
 /**

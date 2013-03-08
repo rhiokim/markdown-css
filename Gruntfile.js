@@ -15,6 +15,7 @@ module.exports = function(grunt) {
 					"build/clearness-dark/clearness-dark.css": "themes/clearness-dark/clearness-dark.less",
 					"build/clearness/clearness.css": "themes/clearness/clearness.less",
 					"build/github/github.css": "themes/github/github.less",
+					"build/github-rhio/github-rhio.css": "themes/github-rhio/github-rhio.less",
 					"build/solarized-dark/solarized-dark.css": "themes/solarized-dark/solarized-dark.less",
 					"build/solarized-light/solarized-light.css": "themes/solarized-light/solarized-light.less",
 					"build/node-dark/node-dark.css": "themes/node-dark/node-dark.less"

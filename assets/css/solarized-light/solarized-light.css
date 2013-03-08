@@ -9,11 +9,11 @@
  * solarized-light style
  * made by rhio.kim
  * powered by http://ethanschoonover.com/solarized
- */
-.solarized-light {
+ */.solarized-light {
   padding: 20px;
   color: #737373;
-  font-family: Sans-serif;
+  font-size: 1em;
+  font-family: "AppleSDGothicNeo-Medium", Sans-serif;
   background: #fdf6e3;
   -webkit-font-smoothing: antialiased;
 }
