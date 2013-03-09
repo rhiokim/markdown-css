@@ -37,8 +37,10 @@
   border: 1px solid #e6e6e6;
 }
 .haroopad pre > code {
-  font-size: .9em;
+  font-size: 1.2em;
   font-family: Consolas, Inconsolata, Courier, monospace;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 .haroopad blockquote {
   border-left: 4px solid #e6e6e6;
