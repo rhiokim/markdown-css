@@ -42,6 +42,14 @@
   font-weight: bold;
   margin: 0.75em 0 0.5em 0;
 }
+.markdown h1:first-child,
+.markdown h2:first-child,
+.markdown h3:first-child,
+.markdown h4:first-child,
+.markdown h5:first-child,
+.markdown h6:first-child {
+  margin-top: 0;
+}
 .markdown h1 + p,
 .markdown h2 + p,
 .markdown h3 + p,
@@ -62,6 +70,7 @@
 }
 .markdown li {
   display: list-item;
+  line-height: 1.4em;
 }
 .markdown blockquote {
   margin: 1em 20px;
