@@ -3,6 +3,8 @@
  */
 .markdown {
   padding: 20px;
+  font-size: 0.9em;
+  line-height: 1.6em;
 }
 .markdown a {
   text-decoration: none;
@@ -14,32 +16,32 @@
 .markdown h1 {
   font-size: 2.2em;
   font-weight: bold;
-  margin: 1em 0;
+  margin: 1.5em 0 1em 0;
 }
 .markdown h2 {
   font-size: 1.8em;
   font-weight: bold;
-  margin: 0.85em 0;
+  margin: 1.275em 0 0.85em 0;
 }
 .markdown h3 {
   font-size: 1.6em;
   font-weight: bold;
-  margin: 0.75em 0;
+  margin: 1.125em 0 0.75em 0;
 }
 .markdown h4 {
   font-size: 1.4em;
   font-weight: bold;
-  margin: 0.66em 0;
+  margin: 0.99em 0 0.66em 0;
 }
 .markdown h5 {
   font-size: 1.2em;
   font-weight: bold;
-  margin: 0.57em 0;
+  margin: 0.855em 0 0.57em 0;
 }
 .markdown h6 {
   font-size: 1em;
   font-weight: bold;
-  margin: 0.5em 0;
+  margin: 0.75em 0 0.5em 0;
 }
 .markdown h1 + p,
 .markdown h2 + p,

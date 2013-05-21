@@ -3,6 +3,8 @@
  */
 
 @border-color: #ccc;
+@line-height: 1.6em;
+@font-size: .9em;
 
 .marginT (@margin) {
   margin-top: @margin;
@@ -14,11 +16,13 @@
 .hN (@size, @margin) {
   font-size: @size;
   font-weight: bold;
-  margin: @margin 0;
+  margin: @margin*1.5 0 @margin 0;
 }
 
 .markdown {
   padding: 20px;
+  font-size: @font-size;
+  line-height: @line-height;
   
   a {
     text-decoration: none;
