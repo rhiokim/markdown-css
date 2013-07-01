@@ -46,9 +46,17 @@
     border:1px solid darken(@bg-color, 10);
   }
 
+  p {
+    &>code {
+      font-family: @code-family;
+      color: rgb(35, 215, 195);
+      text-shadow: 0 0 1px rgba(0,0,0,.5);
+    }
+  }
+
   pre {
     &>code {
-      font-size: 1.1em;
+      font-size: 1em;
       font-family: @code-family;
       letter-spacing: -1px;
       font-weight: bold;
