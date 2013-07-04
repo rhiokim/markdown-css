@@ -38,8 +38,7 @@
 }
 .haroopad p > code {
   font-family: Consolas, Inconsolata, Courier, monospace;
-  color: #23d7c3;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  color: #BD006A;
 }
 .haroopad pre > code {
   font-size: 1em;

@@ -110,7 +110,6 @@
   }
 
   .code {
-    border: 1px solid @border-color;
     border-radius: 3px;
     word-break: break-all;
     word-wrap: break-word;
@@ -126,7 +125,8 @@
     }
 
     &>code {
-      border: 0;
+      //border: 0;
+      border: 1px solid @border-color;
       white-space: pre;
       padding: .5em;
       margin: 0;
@@ -136,6 +136,7 @@
   code {
     .code;
     
+    border: 1px solid @border-color;
     white-space: nowrap;
     padding: 0 5px;
     margin: 0 2px;
