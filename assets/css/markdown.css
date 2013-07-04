@@ -109,7 +109,6 @@
   word-break: break-all;
   word-wrap: break-word;
   border: 1px solid #cccccc;
-  white-space: nowrap;
   padding: 0 5px;
   margin: 0 2px;
 }
