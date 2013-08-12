@@ -60,5 +60,17 @@ File build/solarized-light.css created.
 * after.less
 * plugins.less
 
+### build
+
+##### requirements
+
+grunt-cli
+
+```
+npm install grunt-cli -g
+```
+
+
+
 ## license
 MIT
