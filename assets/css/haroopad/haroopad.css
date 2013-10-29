@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Tauri);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
 /*---------------------------------------------------
     LESS Elements 0.9
   ---------------------------------------------------
@@ -14,7 +17,7 @@
   padding: 20px;
   color: #222222;
   font-size: 15px;
-  font-family: Menlo, Monaco, 'Andale Mono', 'lucida console', 'Courier New', monospace, 'Segoe UI', 'Malgun Gothic', AppleSDGothicNeo-Medium;
+  font-family: 'Roboto Condensed', 'Tauri', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", AppleSDGothicNeo-Medium, 'Segoe UI', 'Malgun Gothic', Verdana, Tahoma, sans-serif;
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
