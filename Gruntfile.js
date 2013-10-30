@@ -18,7 +18,9 @@ module.exports = function(grunt) {
 					"build/haroopad/haroopad.css": "themes/haroopad/haroopad.less",
 					"build/solarized-dark/solarized-dark.css": "themes/solarized-dark/solarized-dark.less",
 					"build/solarized-light/solarized-light.css": "themes/solarized-light/solarized-light.less",
-					"build/node-dark/node-dark.css": "themes/node-dark/node-dark.less"
+					"build/node-dark/node-dark.css": "themes/node-dark/node-dark.less",
+					"build/metro-vibes/metro-vibes.css": "themes/metro-vibes/metro-vibes.less",
+					"build/metro-vibes-dark/metro-vibes-dark.css": "themes/metro-vibes-dark/metro-vibes-dark.less"
 				}
 			}
 		},

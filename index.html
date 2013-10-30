@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="assets/css/solarized-dark/solarized-dark.css">
         <link rel="stylesheet" href="assets/css/solarized-light/solarized-light.css">
         <link rel="stylesheet" href="assets/css/node-dark/node-dark.css">
+        <link rel="stylesheet" href="assets/css/metro-vibes/metro-vibes.css">
+        <link rel="stylesheet" href="assets/css/metro-vibes-dark/metro-vibes-dark.css">
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script>
             $(document.body).ready(function() {
@@ -21,7 +23,7 @@
                     var label = $(this).text();
 
                     label = label.toLowerCase();
-                    label = label.replace(' ', '-');
+                    label = label.replace(/ /g, '-');
 
                     $('#markdown').removeClass();
                     $('#markdown').addClass('markdown');
@@ -43,10 +45,17 @@
             <li>Solarized Dark</li>
             <li>Solarized Light</li>
             <li>Node Dark</li>
+            <li>Metro Vibes</li>
+            <li>Metro Vibes Dark</li>
         </ul>
         <i class="clear"></i>
         <div id="markdown" class="markdown">
-            <body data-spy="scroll" data-target="#toc"><p>Markdown:</p>
+            <h1>Typography &amp; paragraph styles (h1)</h1>
+            <p>Est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Subtitle of the paragraph (h2)</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis</p>
+            <h3>Example of another tag (h3)</h3>
+            <p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere.</p>
 <h1>A First Level Header</h1>
 <h2>A Second Level Header</h2>
 <p>Now is the time for all good men to come to

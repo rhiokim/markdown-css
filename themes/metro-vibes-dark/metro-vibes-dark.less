@@ -1,24 +1,24 @@
 @import "../lib/elements.less";
-@import "github/before";
+@import "metro-vibes-dark/before";
 
 @font-size: 15px;
-@bg-color: #fff;
+@bg-color: #5c5146;
 
-@base-color: #000;
-@base-size: .9em;
-@base-link-color: darken(#4183C4, 10%);
-@base-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", AppleSDGothicNeo-Medium, 'Segoe UI', 'Malgun Gothic', Verdana, Tahoma, sans-serif;
-@code-family: Consolas, Inconsolata, Courier, monospace;
+@base-color: #fff;
+@base-size: 1em;
+@base-link-color: darken(#ebc85e, 10%);
+@base-family: 'Open Sans', AppleSDGothicNeo-Medium, 'Segoe UI', 'Malgun Gothic', sans-serif;
+@code-family: 'Open Sans', AppleSDGothicNeo-Medium, 'Segoe UI', 'Malgun Gothic', sans-serif !important;
 
 @line-height: 1.7em;
 
 @base-margin: 0;
 @base-padding: 0;
-@border-color: darken(@bg-color, 10%);
+@border-color: darken(@bg-color, 5%);
 
 @bg-color-table: darken(@bg-color, 1%);
 
-.github {
+.metro-vibes-dark {
   padding: 20px;
   color: @base-color;
   font-size: @font-size;
@@ -34,8 +34,13 @@
     }
   }
 
+  h1, h2, h3, h4, h5 {
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+
   h2 {
-    border-bottom: 1px solid darken(@bg-color, 10);
+    border-bottom: 1px solid lighten(@bg-color, 10);
     line-height: @line-height;
   }
 
@@ -47,10 +52,22 @@
     border:1px solid darken(@bg-color, 10);
   }
 
+  p {
+    line-height: 19px;
+    &>code {
+      font-family: @code-family;
+      color: #e86741;
+      font-size: .9em;
+      //text-shadow: 0 0 1px rgba(0,0,0,.5);
+    }
+  }
+
   pre {
     &>code {
-      font-size: .9em;
+      font-size: 1em;
       font-family: @code-family;
+      letter-spacing: -1px;
+      font-weight: normal;
     }
   }
 
@@ -58,6 +75,7 @@
     border-left: 4px solid @border-color;
     padding: 0 15px;
     font-style: italic;
+    color: #e86741;
   }
 
   table {
@@ -74,4 +92,4 @@
   }
 }
 
-@import "github/after";
+@import "haroopad/after";
