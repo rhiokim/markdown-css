@@ -14,6 +14,9 @@
         <link rel="stylesheet" href="assets/css/solarized-dark/solarized-dark.css">
         <link rel="stylesheet" href="assets/css/solarized-light/solarized-light.css">
         <link rel="stylesheet" href="assets/css/node-dark/node-dark.css">
+        <link rel="stylesheet" href="assets/css/metro-vibes/metro-vibes.css">
+        <link rel="stylesheet" href="assets/css/metro-vibes-dark/metro-vibes-dark.css">
+        <link rel="stylesheet" href="assets/css/wood/wood.css">
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script>
             $(document.body).ready(function() {
@@ -21,7 +24,7 @@
                     var label = $(this).text();
 
                     label = label.toLowerCase();
-                    label = label.replace(' ', '-');
+                    label = label.replace(/ /g, '-');
 
                     $('#markdown').removeClass();
                     $('#markdown').addClass('markdown');
@@ -43,6 +46,9 @@
             <li>Solarized Dark</li>
             <li>Solarized Light</li>
             <li>Node Dark</li>
+            <li>Metro Vibes</li>
+            <li>Metro Vibes Dark</li>
+            <li>Wood</li>
         </ul>
         <i class="clear"></i>
         <div id="markdown" class="markdown">
