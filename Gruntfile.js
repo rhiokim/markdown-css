@@ -21,7 +21,8 @@ module.exports = function(grunt) {
 					"build/node-dark/node-dark.css": "themes/node-dark/node-dark.less",
 					"build/metro-vibes/metro-vibes.css": "themes/metro-vibes/metro-vibes.less",
 					"build/metro-vibes-dark/metro-vibes-dark.css": "themes/metro-vibes-dark/metro-vibes-dark.less",
-					"build/wood/wood.css": "themes/wood/wood.less"
+					"build/wood/wood.css": "themes/wood/wood.less",
+					"build/wood-ri/wood-ri.css": "themes/wood-ri/wood-ri.less"
 				}
 			}
 		},
@@ -39,7 +40,8 @@ module.exports = function(grunt) {
 			},
 			resources: {
 				files: [
-          { src: 'themes/wood/wood.jpg', dest: 'build/wood/wood.jpg' }
+          { src: 'themes/wood/wood.jpg', dest: 'build/wood/wood.jpg' },
+          { src: 'themes/wood-ri/wood.jpg', dest: 'build/wood-ri/wood.jpg' }
 				]
 			}
 		}
