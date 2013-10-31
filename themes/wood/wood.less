@@ -30,7 +30,7 @@
   background-size: cover;
 
   -webkit-font-smoothing: antialiased;
-   text-shadow: 0 2px 2px rgba(0,0,0,.5);
+  text-shadow: 0 2px 2px rgba(0,0,0,.5);
 
   a {
     color: @base-link-color;
@@ -74,6 +74,7 @@
       font-family: @code-family;
       letter-spacing: -1px;
       font-weight: normal;
+      text-shadow: none;
     }
   }
 
@@ -85,14 +86,14 @@
   }
 
   table {
-    background-color: darken(@bg-color, 2%);
+    background-color: darken(@bg-color, 72%);
 
     tr {
       th, td {
-        border: 1px solid darken(@bg-color, 10%);
+        border: 1px solid darken(@bg-color, 80%);
       }
       &:nth-child(2n) {
-        background-color: darken(@bg-color, 5%);
+        background-color: darken(@bg-color, 75%);
       }
     }
   }
