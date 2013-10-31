@@ -20,7 +20,8 @@ module.exports = function(grunt) {
 					"build/solarized-light/solarized-light.css": "themes/solarized-light/solarized-light.less",
 					"build/node-dark/node-dark.css": "themes/node-dark/node-dark.less",
 					"build/metro-vibes/metro-vibes.css": "themes/metro-vibes/metro-vibes.less",
-					"build/metro-vibes-dark/metro-vibes-dark.css": "themes/metro-vibes-dark/metro-vibes-dark.less"
+					"build/metro-vibes-dark/metro-vibes-dark.css": "themes/metro-vibes-dark/metro-vibes-dark.less",
+					"build/wood/wood.css": "themes/wood/wood.less"
 				}
 			}
 		},
@@ -35,10 +36,15 @@ module.exports = function(grunt) {
 				files: [
 					{ expand: true, cwd: 'build/', src: ['**'], dest: 'assets/css/' }
 				]
+			},
+			resources: {
+				files: [
+          { src: 'themes/wood/wood.jpg', dest: 'build/wood/wood.jpg' }
+				]
 			}
 		}
 	});
 
-	grunt.registerTask('default', [ 'less:development', 'copy:preview' ]);
+	grunt.registerTask('default', [ 'less:development', 'copy:resources', 'copy:preview' ]);
 	grunt.registerTask('build', [ 'less:development', 'copy' ]);
 }
