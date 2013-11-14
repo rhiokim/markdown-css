@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+.magazine{
+	font: 1em 'Quicksand', sans-serif, 'Apple SD Gothic Neo', '맑은 고딕','Malgun Gothic', 'Nanum Gothic', '나눔고딕','Driod Sans Fallback', 'Driod Sans', Helvetica, 'Gulim';
+	padding: 50px;
+	color: #222;
+	line-height: 1.5em;
+	letter-spacing: -0.03em;
+	word-spacing: 0.24em;
+	font-weight: 300;
+	/*text-shadow: inset 1px 1px 1px black;*/
+}
+
+.magazine h1,
+.magazine h2,
+.magazine h3,
+.magazine h4,
+.magazine h5,
+.magazine h6{
+	letter-spacing: -0.1em;
+	font-weight: 400;
+	padding-top: 30px;
+	color: #000;
+	margin: 30px 0;
+}
+
+.magazine a{
+	color: #e74b3b;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.magazine h1{
+	padding: 40px 0 20px;
+	font-size: 3em;
+	line-height: 1em;
+}
+
+.magazine h2{
+	border-bottom: 1px solid;
+	padding: 14px 0;
+}
+
+.magazine img{
+	-webkit-transition: scale 0.4s ease;
+}
+
+.magazine strong.highlight{
+	background-color: #d91303;
+	padding: 4px 8px;
+	border-radius: 10px;
+	color: white;
+}
+
+.magazine thead{
+	background-color: #e74b3b;
+	color: white;
+}
+
+.magazine tbody tr td{
+	border-color: white;
+	padding: 10px 14px;
+}
+
+.magazine tbody tr{
+	background-color: #f2f2f2;
+}
+
+.magazine tbody tr:nth-child(2n){
+	background-color: #e3dad9;
+}
+
+.magazine pre{
+	border: none;
+	background: #f2f2f2;
+	color: #a70b00;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.magazine pre code{
+	border: none;
+	font-weight: 300;
+}
+
+.magazine blockquote{
+	padding: 30px;
+	font-style: italic;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: black;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 84%;
+}
+
+.magazine blockquote p:before,
+.magazine blockquote p:after{
+	position: relative;
+	top: 0.05em;
+	color: black;
+	content: ' " ';
+}
