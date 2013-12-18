@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib');
 
 	grunt.initConfig({
@@ -22,7 +23,9 @@ module.exports = function(grunt) {
 					"build/metro-vibes/metro-vibes.css": "themes/metro-vibes/metro-vibes.less",
 					"build/metro-vibes-dark/metro-vibes-dark.css": "themes/metro-vibes-dark/metro-vibes-dark.less",
 					"build/wood/wood.css": "themes/wood/wood.less",
-					"build/wood-ri/wood-ri.css": "themes/wood-ri/wood-ri.less"
+					"build/wood-ri/wood-ri.css": "themes/wood-ri/wood-ri.less",
+					"build/imazine/magazine.css": "themes/imazine/magazine.less",
+					"build/imazine/water-color.css": "themes/imazine/water-color.less"
 				}
 			}
 		},
@@ -44,7 +47,18 @@ module.exports = function(grunt) {
           { src: 'themes/wood-ri/wood.jpg', dest: 'build/wood-ri/wood.jpg' }
 				]
 			}
+		},
+
+		watch: {
+			options: {
+				files: ['themes/**'],
+				tasks: ['less'],
+				options:{
+					livereload: true,
+				}
+			}
 		}
+
 	});
 
 	grunt.registerTask('default', [ 'less:development', 'copy:resources', 'copy:preview' ]);
