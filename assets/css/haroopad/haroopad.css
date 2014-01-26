@@ -37,9 +37,19 @@
 .haroopad hr {
   border: 1px solid #e6e6e6;
 }
-.haroopad p > code {
-  font-family: Consolas, Inconsolata, Courier, monospace;
-  color: #BD006A;
+.haroopad p > code,
+.haroopad li > code,
+.haroopad td > code,
+.haroopad h1 > code,
+.haroopad h2 > code,
+.haroopad h3 > code,
+.haroopad h4 > code,
+.haroopad h5 > code,
+.haroopad h6 > code,
+.haroopad blockquote > code {
+  color: #000;
+  background-color: #feecdd;
+  border: 1px solid #efdfd0;
 }
 .haroopad pre > code {
   font-size: 1em;
@@ -50,7 +60,7 @@
 .haroopad blockquote {
   border-left: 4px solid #e6e6e6;
   padding: 0 15px;
-  font-style: italic;
+  color: #777;
 }
 .haroopad table {
   background-color: #fafafa;
