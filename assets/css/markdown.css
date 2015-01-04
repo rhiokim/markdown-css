@@ -94,6 +94,7 @@
   overflow: auto;
 }
 .markdown pre code {
+  border: 0;
   display: block;
 }
 .markdown pre > code {
