@@ -42,8 +42,6 @@
 }
 .node-dark pre > code {
   font-size: 1em;
-  font-family: Consolas, Inconsolata, Courier, monospace;
-  font-weight: bold;
 }
 .node-dark blockquote {
   border-left: 4px solid #181915;

@@ -104,8 +104,9 @@
   display: block;
 }
 .markdown pre > code {
+  font-family: Consolas, Inconsolata, Courier, monospace;
+  font-weight: bold;
   white-space: pre;
-  padding: .5em;
   margin: 0;
 }
 .markdown code {
