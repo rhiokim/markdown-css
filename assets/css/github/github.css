@@ -13,6 +13,7 @@
 .github {
   padding: 20px;
   color: #000000;
+  font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Segoe UI", AppleSDGothicNeo-Medium, 'Malgun Gothic', Arial, freesans, sans-serif;
   font-size: 15px;
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
