@@ -4,6 +4,7 @@
 
 @border-color: #ccc;
 @line-height: 1.4em;
+@base-family: "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 'Segoe UI', AppleSDGothicNeo-Medium, 'Malgun Gothic', Verdana, Tahoma, sans-serif;
 
 .marginT (@margin) {
   margin-top: @margin;
@@ -13,6 +14,7 @@
 }
 
 .hN (@size, @margin) {
+  font-family: @base-family;
   font-size: @size;
   font-weight: bold;
   margin: @margin*1.5 0 @margin 0;
@@ -143,6 +145,13 @@
   img {
     max-width: 100%;
   }
+
+  mark {
+    color: #000;
+    background-color: #fcf8e3;
+  }
+
+  ins {}
 
   table {
     padding: 0;
