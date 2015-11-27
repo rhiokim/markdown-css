@@ -5,6 +5,7 @@ standard markdown style sheets & themes
 
 ```bash
 $ git clone https://github.com/rhiokim/markdown-css.git
+$ cd markdown-css
 $ grunt
 
 Running "less:development" (less) task
