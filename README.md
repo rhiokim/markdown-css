@@ -5,6 +5,8 @@ standard markdown style sheets & themes
 
 ```bash
 $ git clone https://github.com/rhiokim/markdown-css.git
+$ cd markdown-css
+$ npm install
 $ grunt
 
 Running "less:development" (less) task
@@ -40,7 +42,7 @@ File build/solarized-light.css created.
 </body>
 ```
 
-### advanced 
+### advanced
 
 #### import external libraries
 
@@ -50,7 +52,7 @@ File build/solarized-light.css created.
 * theme.less
 > ```css
 > @import "before";
-> 
+>
 > .theme {
 > }
 >
