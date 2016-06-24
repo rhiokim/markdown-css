@@ -11,18 +11,18 @@ module.exports = function(grunt) {
 				},
 
 				files: {
-					"build/markdown.css": "themes/markdown.less",
-					"build/clearness-dark/clearness-dark.css": "themes/clearness-dark/clearness-dark.less",
-					"build/clearness/clearness.css": "themes/clearness/clearness.less",
-					"build/github/github.css": "themes/github/github.less",
-					"build/haroopad/haroopad.css": "themes/haroopad/haroopad.less",
-					"build/solarized-dark/solarized-dark.css": "themes/solarized-dark/solarized-dark.less",
-					"build/solarized-light/solarized-light.css": "themes/solarized-light/solarized-light.less",
-					"build/node-dark/node-dark.css": "themes/node-dark/node-dark.less",
-					"build/metro-vibes/metro-vibes.css": "themes/metro-vibes/metro-vibes.less",
-					"build/metro-vibes-dark/metro-vibes-dark.css": "themes/metro-vibes-dark/metro-vibes-dark.less",
-					"build/wood/wood.css": "themes/wood/wood.less",
-					"build/wood-ri/wood-ri.css": "themes/wood-ri/wood-ri.less"
+					"dist/markdown.css": "themes/markdown.less",
+					"dist/clearness-dark.css": "themes/clearness-dark/clearness-dark.less",
+					"dist/clearness.css": "themes/clearness/clearness.less",
+					"dist/github.css": "themes/github/github.less",
+					"dist/haroopad.css": "themes/haroopad/haroopad.less",
+					"dist/solarized-dark.css": "themes/solarized-dark/solarized-dark.less",
+					"dist/solarized-light.css": "themes/solarized-light/solarized-light.less",
+					"dist/node-dark.css": "themes/node-dark/node-dark.less",
+					"dist/metro-vibes.css": "themes/metro-vibes/metro-vibes.less",
+					"dist/metro-vibes-dark.css": "themes/metro-vibes-dark/metro-vibes-dark.less",
+					"dist/wood.css": "themes/wood/wood.less",
+					"dist/wood-ri.css": "themes/wood-ri/wood-ri.less"
 				}
 			}
 		},
